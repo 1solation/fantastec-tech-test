@@ -50,8 +50,6 @@ Once in the root directory, run `serverless invoke local --function featureFlags
 
 To run the jest unit tests run `npm run test` in the terminal
 
-Source code is located in `./src/` and tests are in `./test/`
-
 ## Project Structure
 
 ### Serverless - AWS Node.js Typescript
