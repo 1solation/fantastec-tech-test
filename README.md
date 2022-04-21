@@ -43,6 +43,7 @@ To run a successful API query execute a POST request with the body being 1 of 3 
 ### Run against mocked data with serverless invoke
 
 Once in the root directory, run `serverless invoke local --function featureFlags --path src/functions/featureFlags/mock.json` and you should see output similar to the following:
+
 ` "statusCode": 200, "body": "{\"statusCode\":200,\"body\":{\"message\":\"Enabled features for email:fred@example.com and location:US\",\"featuresEnabledEmail\":[\"SuperCoolFeature\",\"SimplifiedNavBar\",\"MarketingBanner\"],\"featuresEnabledLocation\":[\"MarketingBanner\",\"EnhancedDashboardFeature\",\"SimplifiedNavBar\",\"NewUserOnboardingJourney\"]}}" }`
 
 ## Running tests
