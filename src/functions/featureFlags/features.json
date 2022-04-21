@@ -1,0 +1,37 @@
+[
+    {
+        "name": "SuperCoolFeature",
+        "ratio": 0.5,
+        "enabledEmails": ["fred@example.com", "mike@example.com"],
+        "includedCountries": ["GB"],
+        "excludedCountries": []
+    },
+    {
+        "name": "MarketingBanner",
+        "ratio": 1,
+        "enabledEmails": [],
+        "includedCountries": ["US"],
+        "excludedCountries": []
+    },
+    {
+        "name": "SimplifiedNavBar",
+        "ratio": 0,
+        "enabledEmails": ["fred@example.com"],
+        "includedCountries": [],
+        "excludedCountries": []
+    },
+    {
+        "name": "EnhancedDashboardFeature",
+        "ratio": 0.5,
+        "enabledEmails": ["jacob@example.com"],
+        "includedCountries": ["US", "CA"],
+        "excludedCountries": []
+    },
+    {
+        "name": "NewUserOnboardingJourney",
+        "ratio": 0.25,
+        "enabledEmails": ["tom@example.com"],
+        "includedCountries": [],
+        "excludedCountries": ["CA", "GB"]
+    }
+]

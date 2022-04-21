@@ -1,0 +1,30 @@
+[
+    {
+        "email": "fred@example.com",
+        "location": "GB"
+    },
+    {
+        "email": "rich@example.com",
+        "location": "CA"
+    },
+    {
+        "email": "kathy@example.com",
+        "location": "US"
+    },
+    {
+        "email": "sandy@example.com",
+        "location": "CA"
+    },
+    {
+        "email": "jacob@example.com",
+        "location": "AU"
+    },
+    {
+        "email": "mike@example.com",
+        "location": "GB"
+    },
+    {
+        "email": "tom@example.com",
+        "location": "US"
+    }
+]
