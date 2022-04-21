@@ -102,3 +102,12 @@ The project code base is mainly located within the `src` folder. This folder is 
 - [@serverless/typescript](https://github.com/serverless/typescript) - provides up-to-date TypeScript definitions for your `serverless.ts` service file
 
 - [jest](https://github.com/facebook/jest) - javascript testing framework
+
+### Future Considerations & Thoughts/Ramblings
+
+- More time & thinking needed: Did not implement ratio in the API response, something to improve on. Although, the feature flags returned by the API for a given user are always consistent (i.e all features appear to be turned on)
+- Add tests for unhappy path scenarios & appropriate error handling for these paths (e.g. if email/location does not exist in data)
+- Update `src/libs/api-gateway.ts` to take status code as a param, give default of 200 for this tech test example
+  - would not have to return 200 for lambda successful execution then custom status code in the body this way
+- Create middleware factory using middy to allow me to use after and onError middy syntax & then register new middleware to our function, keeps code clean and abstracts from the json parsing all over the place & allows us to return a result from the lambda without calling the format function `formatJSONResponse` in our code
+- Don't leave JSON data in lambda handler, this was rushed due to personal circumstances & is not by any means a perfect solution
