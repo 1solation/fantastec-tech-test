@@ -105,7 +105,7 @@ The project code base is mainly located within the `src` folder. This folder is 
 
 ### Future Considerations & Thoughts/Ramblings
 
-- More time & thinking needed: Did not implement ratio in the API response, something to improve on. Although, the feature flags returned by the API for a given user are always consistent (i.e all features appear to be turned on)
+- More time & thinking needed: Did not implement ratio in the API response, something to improve on. Although, the feature flags returned by the API for a given user are always consistent (i.e all features appear to be turned on where appropriate)
 - Add tests for unhappy path scenarios & appropriate error handling for these paths (e.g. if email/location does not exist in data)
 - Update `src/libs/api-gateway.ts` to take status code as a param, give default of 200 for this tech test example
   - would not have to return 200 for lambda successful execution then custom status code in the body this way
