@@ -22,7 +22,7 @@ Once in the directory, in the terminal run `npm i` to install all project depend
 
 You can run the API in 2 ways:
 
-- Running the API locally via `npm run`
+- Running the API locally via `npm run offline`
 - Running against mocked data via `serverless invoke local`
 
 ### Running a the API Locally
